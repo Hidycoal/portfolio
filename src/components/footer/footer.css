@@ -11,7 +11,7 @@ footer a {
     color: var(--color-bg);
 }
 
-.footer__logo {
+/* .footer__logo {
     font-size: 2rem;
     font-weight: 500;
     margin-bottom: 2rem;
@@ -19,7 +19,7 @@ footer a {
 }
 .footer__logo img {
     height: 30px;
-}
+} */
 
 .permalinks {
     display: flex;
