@@ -4,13 +4,13 @@ import { BsInstagram } from "react-icons/bs";
 import { FiTwitter } from "react-icons/fi";
 import { FiGithub } from "react-icons/fi";
 import { FiFacebook } from "react-icons/fi";
-import img1 from "../../assets/logo1.png";
+import img2 from "../../assets/logo2.png";
 
 
 const Footer = () => {
   return (
    <footer>
-    <a href="#" className='footer__logo'><img src={img1} alt="" /></a>
+    <a href="#" className='footer__logo'><img src={img2} alt="" /></a>
     <ul className="permalinks">
       <li><a href="#">Home</a></li>
       <li><a href="#about">About</a></li>
