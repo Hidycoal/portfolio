@@ -84,16 +84,16 @@ const Services = () => {
     </article>
     
     {/* WEB DEVELOPMENT */}
-    {/* CONTENT CREATION */}
+    {/* NETWORKING */}
 
     {/* <article className="service">
       <div className="service__head">
-        <h3>SEO Marketing</h3>
+        <h3>Networking</h3>
       </div>
       <ul className="service__list">
         <li>
           <FaRegDotCircle className='service__list__icon'/>
-          <p>White Hat SEO</p>
+          <p>Fibre Optic Installation and Mainteinance</p>
         
         </li>
         <li>
