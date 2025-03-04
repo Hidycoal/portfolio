@@ -1,7 +1,7 @@
 .services__container {
     display: grid;
-    grid-template-columns: 1.5fr 1.5fr;
-    gap: 10rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5rem;
 }
 
 .service {
