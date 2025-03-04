@@ -86,7 +86,7 @@ const Services = () => {
     {/* WEB DEVELOPMENT */}
     {/* NETWORKING */}
 
-    {/* <article className="service">
+    <article className="service">
       <div className="service__head">
         <h3>Networking</h3>
       </div>
@@ -98,27 +98,27 @@ const Services = () => {
         </li>
         <li>
           <FaRegDotCircle className='service__list__icon'/>
-          <p>Black Hat SEO</p>
+          <p>Surveillance Systems</p>
         
         </li>
         <li>
           <FaRegDotCircle className='service__list__icon'/>
-          <p>Grey Hat SEO</p>
+          <p>Voice Over IP</p>
         
         </li>
         <li>
           <FaRegDotCircle className='service__list__icon'/>
-          <p>Negative SEO</p>
+          <p>Networking Solutions</p>
         
         </li>
         <li>
           <FaRegDotCircle className='service__list__icon'/>
-          <p>On-Page SEO</p>
+          <p>Consultation</p>
         
         </li>
       </ul>
     END OF CONTENT CREATION 
-    </article> */}
+    </article>
     </div>
   </motion.section>
   )
