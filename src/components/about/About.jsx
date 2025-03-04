@@ -12,7 +12,7 @@ const About = () => {
   
 
   return (
-    <motion.section  initial={{opacity: 0, x:-200}} transition={{duration: 1}} whileInView={{opacity: 1, x:0}} viewport={{once: true}}  id='about'>
+    <motion.section  initial={{opacity: 0, x:-100}} transition={{duration: 1}} whileInView={{opacity: 1, x:0}} viewport={{once: true}}  id='about'>
       <h5>Get to know</h5>
       <h2>About Me</h2>
       <div className="container about__container">
