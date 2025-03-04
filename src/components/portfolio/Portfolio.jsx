@@ -52,7 +52,7 @@ const data = [
 
 const Portfolio = () => {
   return (
-    <motion.section initial={{opacity: 0, x:-200}} transition={{duration: 1}} whileInView={{opacity: 1, x:0}} viewport={{once: true}}  id='portfolio'>
+    <motion.section initial={{opacity: 0, x:-100}} transition={{duration: 1}} whileInView={{opacity: 1, x:0}} viewport={{once: true}}  id='portfolio'>
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 
