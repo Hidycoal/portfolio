@@ -93,7 +93,7 @@ const Services = () => {
       <ul className="service__list">
         <li>
           <FaRegDotCircle className='service__list__icon'/>
-          <p>Fibre Optic Installation and Mainteinance</p>
+          <p>Fibre Optic Installation & Mainteinance</p>
         
         </li>
         <li>
