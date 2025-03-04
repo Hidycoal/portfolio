@@ -21,7 +21,7 @@ const Services = () => {
       <ul className="service__list">
         <li>
           <FaRegDotCircle className='service__list__icon'/>
-          <p>UI Design</p>
+          <p>UI/UX Design</p>
         
         </li>
         <li>
@@ -72,7 +72,7 @@ const Services = () => {
         </li>
         <li>
           <FaRegDotCircle className='service__list__icon'/>
-          <p>E-Commerce</p>
+          <p>API Integration</p>
         
         </li>
         <li>
