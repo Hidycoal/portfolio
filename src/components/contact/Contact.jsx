@@ -32,7 +32,7 @@ const Contact = () => {
   };
 
   return (
-    <motion.section  initial={{opacity: 0, x:-200}} transition={{duration: 1}} whileInView={{opacity: 1, x:0}} viewport={{once: true}}  id='contact'>
+    <motion.section  initial={{opacity: 0, x:-100}} transition={{duration: 1}} whileInView={{opacity: 1, x:0}} viewport={{once: true}}  id='contact'>
       <h5>Get in Touch</h5>
       <h2>Contact me</h2>
       <div className="container contact__container">
