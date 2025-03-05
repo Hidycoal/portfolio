@@ -1,4 +1,5 @@
 import React from 'react'
+import {ReactTyped}  from 'react-typed'
 import './header.css'
 import CTA from './CTA'
 import ME from '../../assets/me.JPG'
@@ -8,9 +9,9 @@ import {motion,useInView} from 'framer-motion'
 
 
 const Header = () => {
-  const text = "FRONTEND DEVELOPER";
-  const ref = React.useRef(null);
-  const isInView = useInView(ref, { once: true });
+  // const text = "FRONTEND DEVELOPER";
+  // const ref = React.useRef(null);
+  // const isInView = useInView(ref, { once: true });
   return (
     <header>
       <motion.div  initial={{opacity: 0, y:100}} transition={{duration: 1.5}} whileInView={{opacity: 1, y:0}} viewport={{once: true}}  className="container header__container">
@@ -18,7 +19,7 @@ const Header = () => {
         <h2>Hello I'm</h2>
         <h1 >FIFELOLA, OLAMIDE IDOWU</h1>
         {/* <motion.h4 style={{overflow: "hidden", whiteSpace: "nowrap"}} initial={{width: 0}} animate={{width: "100%"}} transition={{duration: 2, ease: "linear"}} className='text-light'>FRONTEND DEVELOPER</motion.h4> */}
-        <h4 ref={ref} style={{overflow: "hidden", whiteSpace: "nowrap"}}>
+        {/* <h4 ref={ref} style={{overflow: "hidden", whiteSpace: "nowrap"}}>
         {text.split('').map((letter, index) => (
         <motion.span className='text-light'
           key={index}
@@ -30,7 +31,14 @@ const Header = () => {
         </motion.span>
       ))}
 
-        </h4>
+        </h4> */}
+        <ReactTyped  
+          strings={[
+            'FRONTEND DEVELOPER','ASPIRING FULLSTACK DEVELOPER','FREELANCER', 'TECH NOMAD', 'FRONTEND DEVELOPER',
+          ]}
+          typeSpeed={200}
+          backSpeed={100}
+        />
         <CTA />
         <HeaderSocials />
         <div className="me">
